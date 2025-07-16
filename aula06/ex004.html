@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font: normal 20pt arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var nome = prompt("Qual é o seu nome?");
+        document.writeln(`Seu nome tem ${nome.length} letras, ${nome}! Seja bem-vindo(a)!`);
+        document.writeln(`Seu nome em maiúsculas é ${nome.toUpperCase()}`);
+        document.writeln(`Seu nome em minúsculas é ${nome.toLowerCase()}`);
+        //.length é pra verificar a quantidade de caracteres
+        //.toUpperCase() é pra deixar tudo em maiúsculo
+        //.toLowerCase() é pra deixar tudo em minúsculo
+        //.toFixed(2) é pra limitar a quantidade de casas decimais
+        //.replace("a", "b") é pra substituir a letra "a" por "b"
+        //.toLocaleString("pt-BR", {style: "currency", currency: "BRL"}) é pra formatar o número como moeda brasileira
+    </script>
+</body>
+</html>
